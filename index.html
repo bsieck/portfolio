@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brennan Sieck | Design</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Brennan Sieck">
+        <meta name="Keywords" content="brennan sieck">
+        <meta name="description" content="Brennan Sieck's personal portfolio">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="animate.css">
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="portfolio.js"></script>
+    </head>
+    
+    <body>
+        <div  id="goToTop" class="top-arrow-icon">
+            <svg>
+                <g>
+                    <rect width="54" height="2" y="35" fill="#4d4647"></rect>
+                    <polyline  class="arrow" points="0,64 27,40 54,64"></polyline> 
+                </g>
+            </svg>
+        </div>
+        <header id="main-nav" class="one-edge-shadow nav-fixed">Brennan Sieck</header>
+        <div id="main-content">
+        <section id="hero" class="panel">
+            <button id="goToSummary" class="button fade color-tran bg-tran">check it out</button>
+        </section>
+        <section id="summary" class="panel"> 
+            <div id="circ-wrapper">
+                <table id="text-overlay">
+                    <tr>
+                        <td>
+                            <div id="design-label" class="label">Design</div>
+                        </td>
+                        <td class="mid-circ">
+                            <div id="web-label" class="label">Web</div>
+                        </td>
+                        <td>
+                            <div id="mobile-label" class="label">Mobile</div>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <svg id="circ1" height="300" width="300">
+                              <circle class="shadow"cx="150" cy="150" r="150" fill="#fb775e"/>
+                            </svg>
+                        </td>
+                        <td class="mid-circ">
+                            <svg id="circ2" height="300" width="300"> 
+                              <circle cx="150" cy="150" r="150" fill="#fb775e" />
+                            </svg>
+                        </td>
+                        <td>
+                            <svg id="circ3" height="300" width="300"> 
+                              <circle cx="150" cy="150" r="150" fill="#fb775e" />
+                            </svg>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div  class="arrow-icon wobble-vertical">
+                <div id="goToResume">
+                    <svg>
+                        <polyline  class="arrow" points="0,40 27,64 54,40"> 
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section id="resume" class="panel">
+            <h1 class="section-heading">Résumé</h1>
+            <div  class="arrow-icon wobble-vertical">
+                <div id="goToWork">
+                    <svg>
+                        <polyline  class="arrow" points="0,40 27,64 54,40"> 
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section id="work" class="panel">
+            <h1 class="section-heading">Work</h1>
+            <div  class="arrow-icon wobble-vertical">
+                <div id="goToAbout">
+                    <svg>
+                        <polyline  class="arrow" points="0,40 27,64 54,40"> 
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="panel">
+            <h1 class="section-heading">About</h1>
+            <div  class="arrow-icon wobble-vertical">
+                <div id="goToFun">
+                    <svg>
+                        <polyline  class="arrow" points="0,40 27,64 54,40"> 
+                    </svg>
+                </div>
+            </div>    
+        </section>
+        </section>
+        <section id="fun" class="panel">
+            <h1 class="section-heading">Fun</h1>
+            <canvas id="canvas" class="bot-shadow" width="900" height="600"></canvas>
+            <div  class="arrow-icon wobble-vertical">
+                <div id="goToContact">
+                    <svg>
+                        <polyline  class="arrow" points="0,40 27,64 54,40"> 
+                    </svg>
+                </div>
+            </div>    
+        </section>    
+        <section id="contact" class="panel">
+            <h1 class="section-heading">Contact</h1>
+            <form class="contact-form">
+                <input class="email-input" type="email" name="email">
+                <input class="submit-input" type="submit" name="submit">
+            </form>
+        </section>
+        
+        </div>
+    </body>
+</html>

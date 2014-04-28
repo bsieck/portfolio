@@ -1,0 +1,1 @@
+$("#goToSummary").click(function(){$("html, body").animate({scrollTop:$("#summary").offset().top},1e3)});
